@@ -10,10 +10,10 @@ import socket
 import json
 
 # request to get credentials at http://developer.twitter.com
-consumer_key    = 'n6T1OKV0v9i3UYY5jNfYhvBWp'
-consumer_secret = 'mIqxDjH3Ik0q335lqNYpiveqbWL07iJeNtzNOxr7Nh5cSXiovI'
-access_token    = '1603771112-2fDsRiXRqP9UpOCVk2PZdZtaPHZvTZUdWtQvtCX'
-access_secret   = 'oUNZitGZKSbXrjjkAer3TtzshIjcc2Cm2LCXwYbfDGm6r'
+consumer_key    = 'n6T1OKV0v9i3UYY5jNfYhv***'
+consumer_secret = 'mIqxDjH3Ik0q335lqNYpiveqbWL07iJeNtzNOxr7Nh5cSXi***'
+access_token    = '1603771112-2fDsRiXRqP9UpOCVk2PZdZtaPHZvTZUdWtQv***'
+access_secret   = 'oUNZitGZKSbXrjjkAer3TtzshIjcc2Cm2LCXwYbfDG***'
 
 # we create this class that inherits from the StreamListener in tweepy StreamListener
 class TweetsListener(StreamListener):
